@@ -1,0 +1,17 @@
+langchain
+langchain-community
+langgraph
+flask
+flask-cors
+python-dotenv
+gunicorn
+langchain-openai
+pytest
+pytest-asyncio
+uvicorn
+##llamaguard
+
+
+# Dependências de teste
+pytest
+pytest-asyncio

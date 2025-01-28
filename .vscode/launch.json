@@ -1,0 +1,9 @@
+{
+    "name": "Python: Run App",
+    "type": "python",
+    "request": "launch",
+    "program": "src/api/app.py",
+    "env": {
+        "OPENAI_API_KEY": "your_openai_api_key_here"
+    }
+}

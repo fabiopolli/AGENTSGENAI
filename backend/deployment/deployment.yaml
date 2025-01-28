@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: genai-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: genai-api
+  template:
+    metadata:
+      labels:
+        app: genai-api
+    spec:
+      containers:
+      - name: genai-api
+        image: genai-api:latest
+        ports:
+        - containerPort: 5000
+        env:
+        - name: OPENAI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: genai-secrets
+              key: openai-api-key
+        - name: SERP_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: genai-secrets
+              key: serp-api-key
+        - name: LLAMAGUARD_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: genai-secrets
+              key: llamaguard-api-key
