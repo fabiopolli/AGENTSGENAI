@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/8e8af5e9-6fd2-41e0-841f-a246ad06a9c9
 
 ## 🚀 APIs e Endpoints
 
-- Para documentação detalhada das APIs, acesse o [API_REFERENCE.md](API_REFERENCE.md).
+- Para documentação detalhada das APIs, acesse o [[API_REFERENCE.md](API_REFERENCE.md](https://github.com/fabiopolli/AGENTSGENAI/blob/9cb9101e2665a8637782dd4ce12f092ec922bc66/docs/API_REFERENCE.md)).
 
 ## 💤 Fluxo do Sistema com LangGraph
 
