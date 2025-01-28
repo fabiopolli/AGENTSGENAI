@@ -23,9 +23,8 @@ export default function Home() {
             const data = await res.json();
             console.log("Dados recebidos:", data);
 
-            // ✅ **Garante que `setResponse` receba apenas a string correta**
             if (data && typeof data.response === "object" && "response" in data.response) {
-                setResponse(data.response.response); // Apenas a string real da resposta
+                setResponse(data.response.response);
             } else {
                 setResponse("Erro ao processar a resposta.");
             }
@@ -38,10 +37,12 @@ export default function Home() {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4">
+            {/* ✅ Logo na parte superior */}
+            <img src="/logo.png" alt="Logo" className="w-40 mb-4" />
+
             <h1 className="text-2xl font-bold mb-4">Chat com Assistente</h1>
             <ChatInput onSend={handleSend} />
 
-            {/* ✅ **Exibir resposta corretamente** */}
             {response && (
                 <div className="mt-4 p-4 bg-white shadow rounded w-full max-w-2xl border border-gray-300">
                     <strong>Resposta:</strong>
