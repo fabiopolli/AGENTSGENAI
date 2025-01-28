@@ -1,31 +1,24 @@
 https://github.com/user-attachments/assets/8e8af5e9-6fd2-41e0-841f-a246ad06a9c9
 
 
-## 📦 Configuração e Instalação
+🚀 AGENTS GENAI
+Este repositório contém um assistente conversacional construído com LangGraph, FastAPI, React.js e Docker.
 
-- Para configuração e instalação detalhada, veja o [INSTALLATION.md](INSTALLATION.md).
+📦 Configuração e Instalação
+Para configuração e instalação detalhada, veja o INSTALLATION.md.
+🚀 APIs e Endpoints
+Para documentação detalhada das APIs, acesse o API_REFERENCE.md.
+💤 Fluxo do Sistema com LangGraph
+Para entender o fluxo do sistema, leia o LANGGRAPH_FLOW.md.
+🛠 Testes Automatizados
+Informações detalhadas sobre testes podem ser encontradas no TESTS.md.
+🔐 Configuração de Credenciais
+Detalhes sobre como configurar variáveis de ambiente estão no CONFIGURATION.md.
+🤝 Contribuição
+Se deseja contribuir para este projeto, siga os passos abaixo:
 
-## 🚀 APIs e Endpoints
-
-- Para documentação detalhada das APIs, acesse o [[API_REFERENCE.md](API_REFERENCE.md](https://github.com/fabiopolli/AGENTSGENAI/blob/9cb9101e2665a8637782dd4ce12f092ec922bc66/docs/API_REFERENCE.md)).
-
-## 💤 Fluxo do Sistema com LangGraph
-
-- Para entender o fluxo do sistema, leia o [LANGGRAPH_FLOW.md](LANGGRAPH_FLOW.md).
-
-## 🛠 Testes Automatizados
-
-- Informações detalhadas sobre testes podem ser encontradas no [TESTS.md](TESTS.md).
-
-## 🔐 Configuração de Credenciais
-
-- Detalhes sobre como configurar variáveis de ambiente estão no [CONFIGURATION.md](CONFIGURATION.md).
-
-## 🤝 Contribuição
-
-1. **Fork o projeto** e crie uma branch.
-2. **Faça suas alterações e commits.**
-3. **Crie um Pull Request.**
-
-## 🐝 Licença
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Faça um fork do projeto e crie uma branch com suas alterações.
+Realize suas modificações e faça commits com mensagens claras.
+Crie um Pull Request detalhando suas mudanças.
+🐝 Licença
+Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
