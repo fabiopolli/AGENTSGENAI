@@ -30,7 +30,10 @@ Se deseja contribuir para este projeto, siga os passos abaixo:
 
 ##Arquitetura AWS
 
-  ![ArquiteturaAWS drawio](https://github.com/user-attachments/assets/883bba4a-fdd2-46d6-803a-ee9a7007abc5)
-                              +----------------+   
+![ArquiteturaAWS drawio (1)](https://github.com/user-attachments/assets/af58d9bf-188c-456b-8283-bf0dfdf52489)
+
+ 
+ 
+                        +----------------+   
 
 
