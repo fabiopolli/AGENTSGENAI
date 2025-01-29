@@ -29,32 +29,8 @@ Se deseja contribuir para este projeto, siga os passos abaixo:
 ##Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
 
 ##Arquitetura AWS
-+------------------------------------+
-| Amazon S3 (Front-End React Build) |
-|     + AWS CloudFront (CDN)        |
-+------------------------------------+
-             |
-             ↓
-    +--------------------------+
-    | AWS API Gateway          |  <--->  AWS WAF (Firewall Proteção)
-    | (Gerencia requisições)   |
-    +--------------------------+
-             |
-             ↓
-+-------------------------+         +------------------------------+
-|  AWS ALB (Load Balancer) | -----> | Amazon EKS - Query Service  |
-|  (Distribui chamadas)    |        | (Consulta e roteamento)     |
-+-------------------------+         +-------------+--------------+
-                                             |                         |
-                                             ↓                         ↓
-                             +------------------------+    +-------------------------+
-                             | Amazon EKS - Search    |    | Amazon EKS - AI Agents  |
-                             | Agent (Consulta no DB) |    | Conversational Agents   |
-                             +------------------------+    +-------------------------+
-                                         |                           |
-                                         ↓                           |
-                                +----------------+                   |
-                                | Amazon RDS/Aurora (DB) | <-- AWS X-Ray (Monitoramento)
-                                +----------------+   
+
+  ![ArquiteturaAWS drawio](https://github.com/user-attachments/assets/883bba4a-fdd2-46d6-803a-ee9a7007abc5)
+                              +----------------+   
 
 
