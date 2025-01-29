@@ -30,7 +30,8 @@ Se deseja contribuir para este projeto, siga os passos abaixo:
 
 ##Deploy AWS
 
-![Diagrama sem nome drawio (1)](https://github.com/user-attachments/assets/60c164da-92de-4d7a-a0c1-d6cc9ee94835)
+![Diagrama sem nome drawio (2)](https://github.com/user-attachments/assets/6c0b3bf7-670c-406c-a4c8-8a6f716b45b5)
+
 
 
  
