@@ -28,11 +28,10 @@ Se deseja contribuir para este projeto, siga os passos abaixo:
 ##🐝 Licença
 ##Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
 
-##Arquitetura AWS
+##Deploy AWS
 
-![ArquiteturaAWS drawio (1)](https://github.com/user-attachments/assets/af58d9bf-188c-456b-8283-bf0dfdf52489)
+![Diagrama sem nome drawio](https://github.com/user-attachments/assets/64485ec9-17b6-4a2f-ae46-dc5c6ae45d24)
 
- 
  
                         +----------------+   
 
